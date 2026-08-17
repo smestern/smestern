@@ -1,8 +1,8 @@
 # Hi, I'm Sam Mestern
 
-**Neuroscientist & Developer** — building tools at the intersection of neuroscience and software engineering.
+Neuroscientist and developer working on electrophysiology data analysis, neural modeling, and open-source scientific software.
 
-Researcher @ University of Western Ontario · Electrophysiology · Neural Modeling · Open-Source Scientific Tools
+Researcher at the University of Western Ontario.
 
 [![Website](https://img.shields.io/badge/Website-smestern.com-0A0A0A?style=flat&logo=googlechrome&logoColor=white)](https://smestern.com)
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.ca/citations?user=4C-Y934AAAAJ&hl=e)
@@ -10,14 +10,24 @@ Researcher @ University of Western Ontario · Electrophysiology · Neural Modeli
 
 ---
 
-## Featured Projects
+## Programming Projects
 
 | Project | Description | |
 |:--------|:------------|:-|
-| [**SciAgent**](https://github.com/smestern/sciagent) | AI-powered scientific data analysis agents with built-in rigor guardrails. Features a 5-layer guardrail system, self-assembly wizard, and plugin architecture. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LLM](https://img.shields.io/badge/LLM-6C3483?style=flat-square) ![Agentic AI](https://img.shields.io/badge/Agentic%20AI-E74C3C?style=flat-square) |
-| [**ni_dynamicclamp**](https://github.com/smestern/ni_dynamicclamp) | High-throughput dynamic clamp enabling biohybrid networks of up to 1000 neurons, bridging biological and artificial neural systems. | ![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Brian2](https://img.shields.io/badge/Brian2-2ECC71?style=flat-square) |
-| [**pypatchOTDA**](https://github.com/smestern/pypatchOTDA) 🏆 | Optimal transport methods for cross-dataset electrophysiology alignment. *Winner — Allen Institute MapMySpikes Challenge.* | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Optimal Transport](https://img.shields.io/badge/Optimal%20Transport-F39C12?style=flat-square) |
-| [**pyAPisolation**](https://github.com/smestern/pyAPisolation) | Action potential feature extraction and dashboarding for patch-clamp electrophysiology data. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Signal Processing](https://img.shields.io/badge/Signal%20Processing-1ABC9C?style=flat-square) |
+| [**SciAgent**](https://github.com/smestern/sciagent) | A framework for building scientific data analysis agents with rigor guardrails. Includes a self-assembly wizard for generating domain-specific agents and a plugin architecture. Runs from the CLI, web UI, or IDE. MIT licensed. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LLM](https://img.shields.io/badge/LLM-6C3483?style=flat-square) |
+| [**treepilot**](https://github.com/smestern/treepilot) | An agentic framework and frontend for genealogy research. Automates family tree construction and data extraction from genealogical records. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LLM](https://img.shields.io/badge/LLM-6C3483?style=flat-square) |
+| [**ni_dynamicclamp**](https://github.com/smestern/ni_dynamicclamp) | A high-throughput dynamic clamp system for biohybrid networks of up to 1000 neurons, connecting living neurons with computational models. Supports Brian2 and PyTorch. | ![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Brian2](https://img.shields.io/badge/Brian2-2ECC71?style=flat-square) |
+| [**pypatchOTDA**](https://github.com/smestern/pypatchOTDA) 🏆 | Corrects for batch effects and experimental variability in electrophysiology data using optimal transport, enabling cross-dataset comparisons. Winner of the Allen Institute MapMySpikes Challenge. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Optimal Transport](https://img.shields.io/badge/Optimal%20Transport-F39C12?style=flat-square) |
+| [**pyAPisolation**](https://github.com/smestern/pyAPisolation) | Extracts action potentials and their features from neural time-series, with dashboarding and visualization for patch-clamp data. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Signal Processing](https://img.shields.io/badge/Signal%20Processing-1ABC9C?style=flat-square) |
+| [**sNMO**](https://github.com/smestern/sNMO) | Fits single-neuron models (AdEx, LIF, CAdEx, and others) to in vitro recordings using genetic algorithms, Bayesian optimization, and neural-network posterior modeling. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Optimization](https://img.shields.io/badge/Optimization-F39C12?style=flat-square) |
+| [**pyCEDFS**](https://github.com/smestern/pyCEDFS) | Extracts and converts data from the CFS neuroscience format, including conversion to NWB. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![NWB](https://img.shields.io/badge/NWB-1ABC9C?style=flat-square) |
+
+---
+
+## Data Science
+
+- [**DANDI Intracellular Ephys Dashboard**](https://www.smestern.com/intraDANDI_explorer/) — A unified dashboard for intracellular electrophysiology datasets on the DANDI Archive, covering 12,000+ recordings across species and brain regions. [Blog post on building it.](https://www.smestern.com/intraDANDI_explorer/dandi_scraper/notes_on_intra_ephys.html)
+- [**Primate Cell Type Database**](http://primatedatabase.com/ephysCT.html) — Backend developer for the JMT Primate Cell Type Database; built the data dashboard for the intracellular ephys table.
 
 ---
 
@@ -25,11 +35,9 @@ Researcher @ University of Western Ontario · Electrophysiology · Neural Modeli
 
 - **Languages:** Python · JavaScript · MATLAB · R · SQL · C/C++
 - **Neuroscience:** Electrophysiology · Patch Clamp · Signal Processing · NWB Format
-- **Machine Learning & AI:** PyTorch · Scikit-learn · Neural ODEs · Bayesian Optimization
-- **Tools & Frameworks:** Git · Docker · Plotly · Pandas · NumPy
+- **Machine Learning:** PyTorch · Scikit-learn · Neural ODEs · Bayesian Optimization
+- **Tools:** Git · Docker · Plotly · Pandas · NumPy
 
 ---
 
-<p align="center">
-  Feel free to explore my repos or reach out. Always happy to chat about neuroscience, open-source tools, or anything in between.
-</p>
+Feel free to explore my repos or reach out. Always happy to talk neuroscience, open-source tools, or anything in between.
